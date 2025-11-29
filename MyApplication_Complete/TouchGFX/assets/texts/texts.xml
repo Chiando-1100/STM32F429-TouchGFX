@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="English" />
+    <Language Id="Chinese" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_2O4D" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Backward</Translation>
+        <Translation Language="Chinese">返回</Translation>
+      </Text>
+      <Text Id="confirmBtnText" Alignment="Center" TypographyId="Default">
+        <Translation Language="English">OK</Translation>
+        <Translation Language="Chinese">OK</Translation>
+      </Text>
+      <Text Id="GreenValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="English">000</Translation>
+        <Translation Language="Chinese">000</Translation>
+      </Text>
+      <Text Id="RedValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="English">000</Translation>
+        <Translation Language="Chinese">000</Translation>
+      </Text>
+      <Text Id="blv" Alignment="Left" TypographyId="Typography1">
+        <Translation Language="English">&lt;value&gt;</Translation>
+        <Translation Language="Chinese">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="grv" Alignment="Left" TypographyId="Typography1">
+        <Translation Language="English">&lt;value&gt;</Translation>
+        <Translation Language="Chinese">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="BlueValue" Alignment="Left" TypographyId="Typography1">
+        <Translation Language="English">000</Translation>
+        <Translation Language="Chinese">000</Translation>
+      </Text>
+      <Text Id="rdv" Alignment="Left" TypographyId="Typography1">
+        <Translation Language="English">&lt;value&gt;</Translation>
+        <Translation Language="Chinese">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZC43" Alignment="Center" TypographyId="Default">
+        <Translation Language="English">&#10;&#10;&#10;&#10;&#10;Touch GFX&#10;Demo</Translation>
+        <Translation Language="Chinese">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_71LZ" Alignment="Center" TypographyId="Default">
+        <Translation Language="English">C</Translation>
+        <Translation Language="Chinese">C</Translation>
+      </Text>
+      <Text Id="__SingleUse_WTTV" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Clear</Translation>
+        <Translation Language="Chinese">清空</Translation>
+      </Text>
+      <Text Id="__SingleUse_8DN2" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Return</Translation>
+        <Translation Language="Chinese">返回</Translation>
+      </Text>
+      <Text Id="tempText" Alignment="Left" TypographyId="Typography1">
+        <Translation Language="English">00.0</Translation>
+        <Translation Language="Chinese">00.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_54O0" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Temperature:&lt;value&gt;°C&#10;</Translation>
+        <Translation Language="Chinese">温度:&lt;value&gt;°C&#10;</Translation>
+      </Text>
+      <Text Id="Temperature" Alignment="Right" TypographyId="Small">
+        <Translation Language="English">&lt;Temp&gt;</Translation>
+        <Translation Language="Chinese">&lt;Temp&gt;</Translation>
+      </Text>
+      <Text Id="Time" Alignment="Left" TypographyId="Small">
+        <Translation Language="English">&lt;Time&gt;</Translation>
+        <Translation Language="Chinese">&lt;Time&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_POAJ" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Clear</Translation>
+        <Translation Language="Chinese">清空</Translation>
+      </Text>
+      <Text Id="__SingleUse_JQMF" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">SketchPad</Translation>
+        <Translation Language="Chinese">画板</Translation>
+      </Text>
+      <Text Id="ReturnBTN" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Backward&#10;</Translation>
+        <Translation Language="Chinese">返回</Translation>
+      </Text>
+      <Text Id="__SingleUse_BRQC" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Backward</Translation>
+        <Translation Language="Chinese">返回</Translation>
+      </Text>
+      <Text Id="__SingleUse_XLPZ" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">OPTIONS</Translation>
+        <Translation Language="Chinese">选项</Translation>
+      </Text>
+      <Text Id="__SingleUse_4H8M" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English"> Temperature</Translation>
+        <Translation Language="Chinese">温度</Translation>
+      </Text>
+      <Text Id="__SingleUse_6YVG" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English"> Language</Translation>
+        <Translation Language="Chinese">语言</Translation>
+      </Text>
+      <Text Id="__SingleUse_8CBI" Alignment="Center" TypographyId="Typography1">
+        <Translation Language="English">Light</Translation>
+        <Translation Language="Chinese">灯光</Translation>
+      </Text>
+      <Text Id="__SingleUse_BUU0" Alignment="Center" TypographyId="Default">
+        <Translation Language="English">WELCOME TO&#10;TouchGFX!</Translation>
+        <Translation Language="Chinese" Alignment="Center">欢迎来到&#10;TouchGFX!</Translation>
+      </Text>
+      <Text Id="__SingleUse_WO9J" Alignment="Center" TypographyId="Default">
+        <Translation Language="English">NEXT</Translation>
+        <Translation Language="Chinese">下一步</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="ALGER.TTF" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?">
+      <LanguageSetting Language="Chinese" Font="STZHONGS.TTF" Size="25" Bpp="4" IsVector="no" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="欢迎来到下一步" />
+    </Typography>
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography1" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789.°">
+      <LanguageSetting Language="Chinese" Font="STZHONGS.TTF" Size="20" Bpp="4" IsVector="no" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789.°返回温度清空画板选项语言灯光欢迎来到下一步C" />
+    </Typography>
+  </Typographies>
+</TextDatabase>
