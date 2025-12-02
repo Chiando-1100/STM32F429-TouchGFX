@@ -10,7 +10,7 @@
       <TargetName>STM32F429I_DISCO_REV_D01</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
+      <pCCUsed>5060061::V5.06 update 1 (build 61)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -81,7 +81,7 @@
           </BeforeMake>
           <AfterMake>
             <RunUserProg1>0</RunUserProg1>
-            <RunUserProg2>1</RunUserProg2>
+            <RunUserProg2>0</RunUserProg2>
             <UserProg1Name></UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F429xx,USE_BPP=16</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../TouchGFX/App;../TouchGFX/target/generated;../TouchGFX/target;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Drivers/BSP;../middlewares/st/touchgfx/framework/include;../touchgfx/generated/fonts/include;../touchgfx/generated/gui_generated/include;../touchgfx/generated/images/include;../touchgfx/generated/texts/include;../touchgfx/gui/include</IncludePath>
+              <IncludePath>../Core/Inc;../TouchGFX/App;../TouchGFX/target/generated;../TouchGFX/target;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Drivers/BSP;../middlewares/st/touchgfx/framework/include;../touchgfx/generated/fonts/include;../touchgfx/generated/gui_generated/include;../touchgfx/generated/images/include;../touchgfx/generated/texts/include;../touchgfx/gui/include;..\TouchGFX\gui\include\gui\containers</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -729,6 +729,26 @@
               <FileType>8</FileType>
               <FilePath>../touchgfx/gui/src/screen1_screen/screen1view.cpp</FilePath>
             </File>
+            <File>
+              <FileName>SketchpadPresenter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\gui\src\sketchpad_screen\SketchpadPresenter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>SketchpadView.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\gui\src\sketchpad_screen\SketchpadView.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>BtnContainer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\gui\src\containers\BtnContainer.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>SketchContainer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\gui\src\containers\SketchContainer.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -839,6 +859,11 @@
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/fonts/src/unmappeddatafont.cpp</FilePath>
             </File>
+            <File>
+              <FileName>SketchContainerBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\generated\gui_generated\src\containers\SketchContainerBase.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -870,5 +895,14 @@
     </components>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>STM32F429I_DISCO_REV_D01</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>
