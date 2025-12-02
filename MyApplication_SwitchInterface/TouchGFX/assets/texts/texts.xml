@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_KBET" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&#10;&#10;&#10;&#10;&#10;&#10;Switch to &#10;other window?</Translation>
+      </Text>
+      <Text Id="NextBtnText" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">NEXT</Translation>
+      </Text>
+      <Text Id="__SingleUse_43U4" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Welcome To&#10;TouchGFX!</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="timesi.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
