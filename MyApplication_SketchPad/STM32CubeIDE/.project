@@ -320,6 +320,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/SketchContainer.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/containers/SketchContainer.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/gui/Model.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/model/Model.cpp</locationURI>
@@ -333,6 +338,16 @@
 			<name>Application/User/gui/Screen1View.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/screen1_screen/Screen1View.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SketchPadPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/sketchpad_screen/SketchPadPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SketchPadView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/sketchpad_screen/SketchPadView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/WelcomeScreenPresenter.cpp</name>
@@ -435,9 +450,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/SketchContainerBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/containers/SketchContainerBase.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Screen1ViewBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/SketchPadViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/sketchpad_screen/SketchPadViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/WelcomeScreenViewBase.cpp</name>
@@ -458,6 +483,11 @@
 			<name>Application/User/generated/image_alternate_theme_images_backgrounds_240x320_gradient_dark.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_backgrounds_240x320_gradient_dark.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_containers_medium_narrow_outlined_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_containers_medium_narrow_outlined_light.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_alternate_theme_images_containers_small_wide_light.cpp</name>
@@ -485,9 +515,54 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_text_on_active.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_bar160x5_Red_filler.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bar160x5_Red_filler.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_bar160x5_Red_track.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bar160x5_Red_track.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_bar160x5_blue_filler.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bar160x5_blue_filler.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_bar160x5_blue_track.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bar160x5_blue_track.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_bar160x5_green_filler.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bar160x5_green_filler.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_bar160x5_green_track.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bar160x5_green_track.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_led.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_led.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_round_active_blue.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_round_active_blue.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_round_active_green.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_round_active_green.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_round_active_red.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_round_active_red.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_st-logo-blue_little.cpp</name>

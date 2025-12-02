@@ -10,6 +10,7 @@ KEEP extern const uint32_t indicesChinese[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesChinese[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
+    207, // T___SINGLEUSE_2O4D: "??"
     189, // T_CONFIRMBTNTEXT: "OK"
     181, // T_GREENVALUE: "000"
     181, // T_REDVALUE: "000"
@@ -29,7 +30,6 @@ KEEP extern const uint32_t indicesChinese[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
     201, // T___SINGLEUSE_JQMF: "??"
     207, // T_RETURNBTN: "??"
     207, // T___SINGLEUSE_BRQC: "??"
-    207, // T___SINGLEUSE_2O4D: "??"
     210, // T___SINGLEUSE_XLPZ: "??"
     195, // T___SINGLEUSE_4H8M: "??"
     204, // T___SINGLEUSE_6YVG: "??"

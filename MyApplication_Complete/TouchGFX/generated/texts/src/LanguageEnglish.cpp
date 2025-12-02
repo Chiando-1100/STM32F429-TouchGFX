@@ -10,6 +10,7 @@ KEEP extern const uint32_t indicesEnglish[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesEnglish[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
+    124, // T___SINGLEUSE_2O4D: "Backward"
     189, // T_CONFIRMBTNTEXT: "OK"
     181, // T_GREENVALUE: "000"
     181, // T_REDVALUE: "000"
@@ -29,7 +30,6 @@ KEEP extern const uint32_t indicesEnglish[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
     114, // T___SINGLEUSE_JQMF: "SketchPad"
     104, // T_RETURNBTN: "Backward\n"
     124, // T___SINGLEUSE_BRQC: "Backward"
-    124, // T___SINGLEUSE_2O4D: "Backward"
     144, // T___SINGLEUSE_XLPZ: "OPTIONS"
     81,  // T___SINGLEUSE_4H8M: " Temperature"
     94,  // T___SINGLEUSE_6YVG: " Language"

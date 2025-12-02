@@ -102,7 +102,6 @@ SketchpadViewBase::SketchpadViewBase() :
     ColorSetmodalWindow.setBackground(touchgfx::BitmapId(BITMAP_ALTERNATE_THEME_IMAGES_CONTAINERS_MEDIUM_NARROW_OUTLINED_LIGHT_ID), 0, 25);
     ColorSetmodalWindow.setShadeColor(touchgfx::Color::getColorFromRGB(44, 62, 66));
     ColorSetmodalWindow.setShadeAlpha(130);
-    ColorSetmodalWindow.hide();
     ColorConfirmBtn.setBoxWithBorderPosition(0, 0, 100, 30);
     ColorConfirmBtn.setBorderSize(0);
     ColorConfirmBtn.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));

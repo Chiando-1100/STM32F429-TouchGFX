@@ -31,7 +31,7 @@ LED_SWITCHViewBase::LED_SWITCHViewBase() :
     toggleButton1.setAction(buttonCallback);
     add(toggleButton1);
 
-    buttonWithLabel1.setXY(54, 263);
+    buttonWithLabel1.setXY(51, 262);
     buttonWithLabel1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_SMALL_ROUNDED_ACTION_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_SMALL_ROUNDED_PRESSED_ID));
     buttonWithLabel1.setLabelText(touchgfx::TypedText(T___SINGLEUSE_2O4D));
     buttonWithLabel1.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -66,9 +66,9 @@ void LED_SWITCHViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& s
     }
     if (&src == &buttonWithLabel1)
     {
-        //Interaction2
-        //When buttonWithLabel1 clicked change screen to SelectScreen
-        //Go to SelectScreen with screen transition towards North
-        application().gotoSelectScreenScreenSlideTransitionNorth();
+        //Return
+        //When buttonWithLabel1 clicked change screen to WelcomeScreen
+        //Go to WelcomeScreen with screen transition towards North
+        application().gotoWelcomeScreenScreenSlideTransitionNorth();
     }
 }

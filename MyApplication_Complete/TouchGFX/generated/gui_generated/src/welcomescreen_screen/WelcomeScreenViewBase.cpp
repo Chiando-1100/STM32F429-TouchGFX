@@ -48,7 +48,6 @@ WelcomeScreenViewBase::WelcomeScreenViewBase() :
     welcomeWidget.setBackground(touchgfx::BitmapId(BITMAP_ALTERNATE_THEME_IMAGES_CONTAINERS_SMALL_WIDE_LIGHT_ID), 13, 85);
     welcomeWidget.setShadeColor(touchgfx::Color::getColorFromRGB(102, 176, 250));
     welcomeWidget.setShadeAlpha(127);
-    welcomeWidget.hide();
     image2.setXY(72, 21);
     image2.setBitmap(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_LOGOS_TOUCHGFX_ID));
     welcomeWidget.add(image2);
