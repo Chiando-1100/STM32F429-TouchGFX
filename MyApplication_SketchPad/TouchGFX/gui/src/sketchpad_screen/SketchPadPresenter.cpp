@@ -2,7 +2,7 @@
 #include <gui/sketchpad_screen/SketchpadPresenter.hpp>
 #include <touchgfx/Color.hpp>
 
-SketchPadPresenter::SketchpadPresenter(SketchpadView& v)
+SketchPadPresenter::SketchPadPresenter(SketchPadView& v)
     : view(v)
 {
 

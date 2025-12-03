@@ -1,14 +1,14 @@
 #ifndef SKETCHPADVIEW_HPP
 #define SKETCHPADVIEW_HPP
 
-#include <gui_generated/sketchpad_screen/SketchpadViewBase.hpp>
-#include <gui/sketchpad_screen/SketchpadPresenter.hpp>
+#include <gui_generated/sketchPad_screen/SketchPadViewBase.hpp>
+#include <gui/sketchpad_screen/SketchPadPresenter.hpp>
 
-class SketchpadView : public SketchpadViewBase
+class SketchPadView : public SketchPadViewBase
 {
 public:
-    SketchpadView();
-    virtual ~SketchpadView() {}
+    SketchPadView();
+    virtual ~SketchPadView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
     SketchContainer& getSketch()

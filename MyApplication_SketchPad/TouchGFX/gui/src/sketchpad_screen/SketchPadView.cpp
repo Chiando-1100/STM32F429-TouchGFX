@@ -1,16 +1,16 @@
-#include <gui/sketchpad_screen/SketchpadView.hpp>
+#include <gui/sketchpad_screen/SketchPadView.hpp>
 
-SketchpadView::SketchpadView()
+SketchPadView::SketchPadView()
 {
 
 }
 
-void SketchpadView::setupScreen()
+void SketchPadView::setupScreen()
 {
-    SketchpadViewBase::setupScreen();
+    SketchPadViewBase::setupScreen();
 }
 
-void SketchpadView::tearDownScreen()
+void SketchPadView::tearDownScreen()
 {
-    SketchpadViewBase::tearDownScreen();
+	SketchPadViewBase::tearDownScreen();
 }

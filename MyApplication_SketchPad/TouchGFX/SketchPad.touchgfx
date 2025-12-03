@@ -593,11 +593,18 @@
             ]
           },
           {
+            "Type": "CustomContainerInstance",
+            "Name": "sketchContainer1",
+            "Width": 240,
+            "Height": 260,
+            "CustomContainerDefinitionName": "SketchContainer",
+            "Clickable": true
+          },
+          {
             "Type": "ModalWindow",
             "Name": "ColorSetmodalWindow",
             "Width": 240,
             "Height": 320,
-            "Visible": false,
             "FileName": "__generated\\alternate_theme_images_containers_medium_narrow_outlined_light.png",
             "ModalY": 25,
             "ModalWidth": 240,
@@ -695,7 +702,7 @@
                 "TextRotation": "0",
                 "AutoSize": true,
                 "Wildcard1": {
-                  "TextId": "RedValue",
+                  "TextId": "GreenValue",
                   "UseBuffer": true,
                   "BufferSize": 10
                 }
@@ -752,14 +759,6 @@
                 ]
               }
             ]
-          },
-          {
-            "Type": "CustomContainerInstance",
-            "Name": "sketchContainer1",
-            "Width": 240,
-            "Height": 260,
-            "CustomContainerDefinitionName": "SketchContainer",
-            "Clickable": true
           }
         ],
         "Interactions": [
@@ -793,6 +792,138 @@
             "Action": {
               "Type": "ActionHide",
               "ActionComponent": "ColorSetmodalWindow"
+            }
+          },
+          {
+            "InteractionName": "SetRedColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "RedBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(255,10,10));"
+            }
+          },
+          {
+            "InteractionName": "SetOrangeColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "OrangeBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(255,110,30));"
+            }
+          },
+          {
+            "InteractionName": "SetYellowColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "YellowBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(255,180,30));"
+            }
+          },
+          {
+            "InteractionName": "SetGreenColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "GreenBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(10,250,30));"
+            }
+          },
+          {
+            "InteractionName": "SetBlueColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BlueBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(10,40,250));"
+            }
+          },
+          {
+            "InteractionName": "SetPurpleColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "PurpleBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(190,10,230));"
+            }
+          },
+          {
+            "InteractionName": "SetBlackColor",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BlackBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->setSketchColor(touchgfx::Color::getColorFromRGB(10,10,10));"
+            }
+          },
+          {
+            "InteractionName": "ClearAct",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ClearBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->clearSketch();"
+            }
+          },
+          {
+            "InteractionName": "SetRedColorValue",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "RedSlider"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->updateRedValue(value);\r\nUnicode::snprintf(RedValueBuffer, REDVALUE_SIZE, \"%d\", value);\r\nRedValue.invalidate();\r\nColorConfirmBtn.setBoxWithBorderColors(presenter->getColorValue(), touchgfx::Color::getColorFromRGB(50, 50, 50), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(4, 49, 94));\r\nColorConfirmBtn.invalidate();"
+            }
+          },
+          {
+            "InteractionName": "SetBlueColorValue",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "BlueSlider"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->updateBlueValue(value);\r\nUnicode::snprintf(BlueValueBuffer, BLUEVALUE_SIZE, \"%d\", value);\r\nBlueValue.invalidate();\r\nColorConfirmBtn.setBoxWithBorderColors(presenter->getColorValue(), touchgfx::Color::getColorFromRGB(50, 50, 50), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(4, 49, 94));\r\nColorConfirmBtn.invalidate();"
+            }
+          },
+          {
+            "InteractionName": "SetGreenColorValue",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "GreenSlider"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->updateGreenValue(value);\r\nUnicode::snprintf(GreenValueBuffer, GREENVALUE_SIZE, \"%d\", value);\r\nGreenValue.invalidate();\r\nColorConfirmBtn.setBoxWithBorderColors(presenter->getColorValue(), touchgfx::Color::getColorFromRGB(50, 50, 50), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(4, 49, 94));\r\nColorConfirmBtn.invalidate();"
+            }
+          },
+          {
+            "InteractionName": "ConfirmAct",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ColorConfirmBtn"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ColorChooseBtn.setBoxWithBorderColors(presenter->confirmColorValue(), touchgfx::Color::getColorFromRGB(0, 50, 66), touchgfx::Color::getColorFromRGB(84, 84, 84), touchgfx::Color::getColorFromRGB(4, 49, 94));"
             }
           }
         ]
