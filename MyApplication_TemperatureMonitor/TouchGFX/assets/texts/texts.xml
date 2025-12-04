@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="TempLabel" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="TimeLabel" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="tempText" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00.0</Translation>
+      </Text>
+      <Text Id="TempTextLabel" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Temp:&lt;value&gt;°C</Translation>
+      </Text>
+      <Text Id="Time" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="GreenValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="ConfirmBtn" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="RedValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="RedValueLabel" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_B0YW" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">...</Translation>
+      </Text>
+      <Text Id="__SingleUse_JQW1" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Clear</Translation>
+      </Text>
+      <Text Id="__SingleUse_KBET" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&#10;&#10;&#10;&#10;&#10;&#10;Switch to &#10;other window?</Translation>
+      </Text>
+      <Text Id="NextBtnText" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">NEXT</Translation>
+      </Text>
+      <Text Id="__SingleUse_43U4" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Welcome To&#10;TouchGFX!</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890.°" />
+    <Typography Id="Large" Font="timesi.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+  </Typographies>
+</TextDatabase>
