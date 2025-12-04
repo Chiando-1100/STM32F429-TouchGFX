@@ -12,8 +12,6 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
     void updateTemperature(int16_t temp10);   // 新增
-    void resetGraph();
-    void disableGraph();
 protected:
 };
 

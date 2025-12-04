@@ -14,7 +14,7 @@ void TempScreenView::setupScreen()
 void TempScreenView::tearDownScreen()
 {
     TempScreenViewBase::tearDownScreen();
-    // 停止图表继续刷新
+
 }
 
 void TempScreenView::updateTemperature(int16_t temp10)
@@ -31,16 +31,4 @@ void TempScreenView::updateTemperature(int16_t temp10)
     tempGraph.invalidate();
 }
 
-void TempScreenView::resetGraph()
-{
-    for (int i = 0; i < 50; i++)
-        tempGraph.addDataPoint(0);
-    tempGraph.invalidate();
-}
 
-void TempScreenView::disableGraph()
-{
-    tempGraph.setVisible(false);       // 停止绘制
-    tempGraph.invalidate();            // 强制刷新一次，把区域清掉
-
-}
