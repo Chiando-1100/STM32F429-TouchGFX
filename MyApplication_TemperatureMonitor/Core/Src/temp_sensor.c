@@ -17,7 +17,7 @@ float TS_GetTemperature(void)
 
     uint16_t adcValue = HAL_ADC_GetValue(&hadc1);
 
-    float VSENSE = adcValue * 3.0f / 4095.0f;  // 若 Vref=3.3 改成 3.3f
+    float VSENSE = adcValue * 3.3f / 4095.0f;  // 若 Vref=3.0 改成 3.0f
     float temp = ((VSENSE - 0.76f) / 0.0025f) + 25.0f;
     return temp;    // 单位 ℃
 }
