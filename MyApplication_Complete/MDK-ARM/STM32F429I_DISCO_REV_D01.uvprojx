@@ -749,6 +749,26 @@
               <FileType>8</FileType>
               <FilePath>..\TouchGFX\gui\src\containers\SketchContainer.cpp</FilePath>
             </File>
+            <File>
+              <FileName>TemperatureScreenPresenter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\gui\src\temperaturescreen_screen\TemperatureScreenPresenter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>TemperatureScreenView.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\gui\src\temperaturescreen_screen\TemperatureScreenView.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>TemperatureScreenViewBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\TouchGFX\generated\gui_generated\src\temperaturescreen_screen\TemperatureScreenViewBase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>temp_sensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\temp_sensor.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
